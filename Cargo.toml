@@ -2,6 +2,12 @@
 name = "adkfjakdjk"
 version = "0.1.0"
 edition = "2021"
+authors = ["Sadık Kuzu <sadikkuzu@hotmail.com>"]
+license = "MIT"
+description = "A tool to greet adkfjakdjk"
+readme = "README.md"
+keywords = ["cli", "random", "demo"]
+categories = ["command-line-utilities"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
