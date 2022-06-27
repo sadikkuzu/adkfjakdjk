@@ -1,7 +1,7 @@
 use clap::{Parser};
 
 #[derive(Parser)]
-#[clap(author, version, about, long_about = None)]
+#[clap(version, about, long_about = None)]
 struct Cli {
     /// Print crates.io link
     #[clap(short, long, action = clap::ArgAction::Count)]
