@@ -1,4 +1,4 @@
-use clap::{Parser};
+use clap::Parser;
 
 #[derive(Parser)]
 #[clap(version, about, long_about = None)]
@@ -7,7 +7,6 @@ struct Cli {
     #[clap(short, long, action = clap::ArgAction::Count)]
     crates: u8,
 }
-
 
 fn main() {
     println!("Hello, world!");
